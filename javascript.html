@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Javascript Pratice</title>
+        <meta charset="utf-8">
+        <script>
+        
+        
+        </script>
+        
+        
+    </head>
+    <body>
+        <div id="demo1"> Line_1</div>
+        <div> Line_2</div>
+        <script>
+            document.write("123");
+            document.write(Date());
+            document.getElementById("demo1").innerHTML="更改後的內容";
+            console.log("顯示在console上");
+            
+            var sum=0
+            for (var i=1;i<=50;i++){
+                sum+=i
+            }
+            console.log(sum)
+            
+        </script>script>
+        <hr/>
+    </body>
+</html>
+
+
+
+
+<!--
+
+
+//------------------------------------------練習重點(注意script打完要加;)---------------------------------
+//------------泛用指令---------------
+變數.length  //檢查長度
+typeof 變數   //檢察類別
+變數[N]   //選定變數的第N的字
+
+//------------輸出------------
+1.alert(""); //彈出警告框
+2.document.write(""); //加入到html中 Ex.document.write(DOC())  
+Note: 若在網頁加載後再使用document.write，則會刷新頁面
+Note: 目前還不會分行 
+
+3.document.getElementById("id").innerHTML="要改的內容"   //使用innerHTML方法
+4.console.log() //顯示在console上
+
+
+//----------Aray------
+var cars=["car1","car2","car3"];   //第一種宣告方式
+var cars=new Array();          //第二種宣告方式
+cars[0]="car1";
+cars[1]="car2";
+cars[2]="car3";
+alert(cars);
+
+//---------object----------
+var obj_name={obj1:"111",obj2:"222"};
+alert(obj_name.obj1);   //第一種呼叫方式
+alert(obj_name["obj1"])  //第二種呼叫方式
+
+//obj中有function
+var obj_name={
+obj1:"111",
+obj2:"222",
+obj3:function(){return "test";}
+};       //object 中放function，則呼叫方法為oject_name.obj3()
+alert(obj_name.obj3());
+alert(obj_name.obj3()     // 若少括號會將整個function 顯示出來而非執行function
+
+
+//------------------------函式 function-------------------
+function func1(arg1,arg2){
+return arg1+arg2
+};
+console.log(func1(10,1));
+
+//四種函式宣告 https://blog.gtwang.org/programming/defining-javascript-functions/
+function fn_ (){};  //如果使用這樣的方式來定義函數，則在整個程式中同一個 scope 之內的任何地方都可以使用這個函數，就算在這個函數定義之前也沒問題，就像這樣：
+var funcExpression = function () {};
+var namedFuncExpression = function named() {};
+var fnConstructor = new Function ();
+
+
+function fn_ (){}; //第一種種範例如下
+var a=b=1 ;
+alert(fn_(a,b));  //使用函式，可以在function 前線或後面
+function fn_(a,b){return a+b};
+
+
+var fu_ = function () {};   //第二種範例
+var a=b=1 ;
+var fn_ = function (a,b) {return a+b};
+alert(fn_(a,b));   //使用函式一定要在宣告後
+
+
+var fn_ = function named() {};   //第三種範例，和第二種很像，在function後家named，且一樣使用函式一定要在宣告後
+var a=b=1 ;
+var fn_ = function named (a,b) {return a+b};
+alert(fn_(a,b));
+
+var fnConstructor = new Function ()  //第四種範例，注意function 內功能用''包住，一樣使用函式一定要在宣告後
+var a=b=1 ;
+var fn_ =new Function ('a','b','return a+b');
+alert(fn_(a,b));
+
+
+
+//-----------for & while 迴圈測試------------------------
+//while 迴圈
+var i =0
+while(i<=10){
+    i+=1
+};
+alert(i
+
+
+//for 迴圈
+for (var i=0;i<=10;i++){};
+alert (i);
+
+//-----------if------------------------
+var a=prompt("Input Something",)
+console.log(a);
+a=Number(a)
+if (a>10){
+    console.log(true)
+}else if(a<=10){
+    console.log(false)
+}else{
+    console.log("not a Number")
+} 
+
+
+
+//--------型態轉換--------
+var a=prompt("Input Something",)
+console.log(a);
+a=Number(a)
+console.log(typeof a)
+console.log(a)
+
+
+//--------------------------事件觸發------------------------------
+<button onclick="getElementById('demo').innerHTML=Date()">现在的时间是?</button>
+<p id="demo"></p> //寫在html
+
+
+-->
+
+
+
+-->
