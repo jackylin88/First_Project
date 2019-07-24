@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Layout example</title>
+        
+    </head>
+    <style>
+        .head{
+            background-color:#054FB7;padding:10px;
+            color:white; text-align: center;font-size:30px;font-weight:bold       
+        }
+        .context{
+            width:1000px; height:600px;margin-left: auto;margin-right: auto;
+            /*border:solid*/
+        }
+        .box{
+            background-color: white;width:280px; height:150px;padding:10px;margin:10px;
+            display:inline-block;vertical-align: top
+            /*  div自動浮動起來水平排列*/
+        }
+        .word{
+            text-align: center;font-weight: border;font-size:25px;margin:10px;
+        }
+        .list{
+            padding:5px;
+            
+        }
+    
+    </style>
+    <body style="margin:0px;background-color: #eeeeee"> 
+    <!-- 去除body外框白邊-->
+        <div class="head">Layout Practice</div>
+        <div class="context">
+            <div class="box">
+                <div class="word">First Block</div>
+                <lu>
+                    <li class="list">list1</li>
+                    <li class="list">list2</li>
+                    <li class="list">list3</li>
+                </lu>
+            </div>
+            <div class="box">
+                <div class="word">Second Block</div>
+                <lu>
+                    <li class="list">list1</li>
+                    <li class="list">list2</li>
+                    <li class="list">list3</li>
+                </lu>
+            </div>
+            <div class="box">
+                <div class="word">Third Block</div>
+                <lu>
+                    <li class="list">list1</li>
+                    <li class="list">list2</li>
+                    <li class="list">list3</li>
+                </lu>
+            </div>  
+        </div>
+        
+    </body>
+
+</html>
