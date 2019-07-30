@@ -1,1 +1,0 @@
-pyi-makespec -F -w --icon=ic.ico --name=DHCP_xxx main.py
