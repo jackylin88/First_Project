@@ -1,0 +1,67 @@
+('C:\\Users\\Calvin\\Downloads\\Qthread with '
+ 'mul-UI-20180502T051355Z-001\\Qthread with mul-UI',
+ '\\',
+ [],
+ 'DATA',
+ [('\\build-spec.bat',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with mul-UI\\build-spec.bat',
+   'DATA'),
+  ('\\DHCP_xxx.spec',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with mul-UI\\DHCP_xxx.spec',
+   'DATA'),
+  ('\\ic.ico',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with mul-UI\\ic.ico',
+   'DATA'),
+  ('\\main.py',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with mul-UI\\main.py',
+   'DATA'),
+  ('\\main.ui',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with mul-UI\\main.ui',
+   'DATA'),
+  ('\\run.py',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with mul-UI\\run.py',
+   'DATA'),
+  ('\\SOP.txt',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with mul-UI\\SOP.txt',
+   'DATA'),
+  ('\\update.ui',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with mul-UI\\update.ui',
+   'DATA'),
+  ('\\build\\DHCP_xxx\\base_library.zip',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with '
+   'mul-UI\\build\\DHCP_xxx\\base_library.zip',
+   'DATA'),
+  ('\\build\\DHCP_xxx\\DHCP_xxx.exe.manifest',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with '
+   'mul-UI\\build\\DHCP_xxx\\DHCP_xxx.exe.manifest',
+   'DATA'),
+  ('\\build\\DHCP_xxx\\out00-Analysis.toc',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with '
+   'mul-UI\\build\\DHCP_xxx\\out00-Analysis.toc',
+   'DATA'),
+  ('\\build\\DHCP_xxx\\out00-PYZ.pyz',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with '
+   'mul-UI\\build\\DHCP_xxx\\out00-PYZ.pyz',
+   'DATA'),
+  ('\\build\\DHCP_xxx\\out00-PYZ.toc',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with '
+   'mul-UI\\build\\DHCP_xxx\\out00-PYZ.toc',
+   'DATA'),
+  ('\\build\\DHCP_xxx\\warnDHCP_xxx.txt',
+   'C:\\Users\\Calvin\\Downloads\\Qthread with '
+   'mul-UI-20180502T051355Z-001\\Qthread with '
+   'mul-UI\\build\\DHCP_xxx\\warnDHCP_xxx.txt',
+   'DATA')])
